@@ -1,10 +1,17 @@
 #include <stdio.h>
+#include<iostream>
+#include <string>
 
-int main(){
-	
-	int a = 4;
-	
-	printf("%d", a);
+using namespace std;
+
+string retornaDanadinho(){
+	return "Danadinho";
+}
+
+int main(){	
+	string danadinho;
+	danadinho = "Danadinho";
+	cout << danadinho;
 	
 	return 0;
 }
